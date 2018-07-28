@@ -1,0 +1,834 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ffe13251-41fa-4245-bca8-b496db58ea08" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/cnn_low_level.py" beforeDir="false" afterPath="$PROJECT_DIR$/cnn_low_level.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/test/duck.1/1531236704535.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/test/duck.1/1531236714357.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/test/duck.1/1531236719448.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/test/duck.1/1531236729073.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/test/duck.1/1531236738537.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/test/duck.1/1531236744405.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/test/no.0/1531236653499.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/test/no.0/1531236658487.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/test/no.0/1531236663669.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/test/no.0/1531236668824.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/test/no.0/1531236767267.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/test/no.0/1531236772388.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236704535.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236704670.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236704803.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236704941.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236705078.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236705213.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236705345.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236705479.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236705612.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236705880.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236706013.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236706157.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236706299.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236706438.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236706585.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236706726.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236706866.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236707003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236707144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236707279.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236707419.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236707557.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236707696.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236707834.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236707969.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236708109.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236708247.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236708385.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236708518.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236708658.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236708793.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236708935.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236709079.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236709216.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236709348.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236714218.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236714357.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236714491.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236714624.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236714763.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236714897.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236715032.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236715165.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236715301.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236715434.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236715567.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236715703.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236715845.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236715984.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236716118.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236716255.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236716390.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236716524.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236716664.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236716800.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236716953.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236717087.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236717220.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236717361.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236717496.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236717634.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236717778.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236717917.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236718057.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236718192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236718325.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236718474.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236718619.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236718758.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236718897.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236719034.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236719306.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236719448.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236719583.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236719725.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236719868.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236720001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236720149.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236720284.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236720440.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236725147.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236725280.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236725419.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236725553.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236725688.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236725822.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236725957.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236726090.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236726284.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236726423.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236726565.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236726707.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236726842.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236726978.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236727114.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236727253.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236727396.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236727537.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236727673.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236727806.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236727949.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236728089.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236728233.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236728376.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236728514.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236728655.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236728791.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236728930.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236729073.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236729214.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236729357.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236729495.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236729637.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236729773.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236729919.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236730066.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236730206.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236730343.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236730478.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236730615.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236730759.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236730901.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236731034.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236731176.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236731315.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236731460.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236731607.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236731746.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236731889.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236732024.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236732162.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236732300.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236732441.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236737050.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236737188.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236737323.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236737457.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236737591.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236737724.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236737860.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236737994.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236738129.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236738263.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236738398.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236738537.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236738672.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236738806.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236738947.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236739084.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236739224.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236739368.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236739503.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236739643.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236739793.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236739977.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236740796.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236740937.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236741071.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236741210.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236741483.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236741618.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236741768.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236741905.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236742041.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236742179.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236742318.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236742455.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236742605.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236742749.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236742894.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236743032.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236743180.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236743316.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236743454.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236743589.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236743724.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236743861.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236743997.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236744132.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236744272.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236744405.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236744539.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236744679.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236744813.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236744959.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236745093.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236745229.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236745367.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236745501.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/duck.1/1531236745643.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236653499.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236653643.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236653781.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236653921.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236654057.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236654193.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236654325.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236654478.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236654612.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236654748.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236654886.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236655025.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236655162.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236655300.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236655437.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236655573.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236655711.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236655852.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236655988.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236656140.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236656276.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236656418.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236656556.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236656690.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236656833.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236656967.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236657107.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236657242.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236657379.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236657513.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236657655.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236657793.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236657937.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236658077.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236658212.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236658352.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236658487.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236658632.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236658770.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236658912.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236659061.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236659196.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236659333.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236659469.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236659607.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236659876.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236660013.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236660158.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236660315.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236660453.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236660598.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236660731.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236660876.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236661013.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236661150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236661291.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236661434.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236661574.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236661708.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236661851.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236661984.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236662136.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236662279.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236662418.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236662566.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236662705.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236662845.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236662981.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236663118.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236663254.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236663395.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236663532.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236663669.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236663814.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236663957.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236664096.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236664235.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236664375.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236664511.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236664656.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236664801.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236664939.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236665077.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236665211.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236665350.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236665486.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236665626.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236665765.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236665911.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236666188.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236666339.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236666474.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236666617.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236666756.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236666893.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236667035.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236667174.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236667318.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236667457.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236667598.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236667734.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236667874.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236668007.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236668146.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236668282.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236668417.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236668554.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236668690.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236668824.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236668959.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236669097.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236669231.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236669366.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236669500.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236669666.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236669802.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236669937.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236670070.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236670204.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236670337.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236670474.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236670609.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236670744.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236670880.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236671017.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236671157.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236671293.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236671436.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236671574.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236671711.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236671851.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236671986.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236672131.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236672268.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236672436.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236672577.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236672725.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236672861.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236672998.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236673145.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236673281.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236673417.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236673551.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236767114.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236767267.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236767401.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236767537.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236767676.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236767811.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236767959.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236768095.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236768231.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236768367.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236768504.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236768640.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236768778.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236768916.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236769053.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236769197.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236769335.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236769474.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236769618.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236769766.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236769903.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236770037.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236770176.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236770309.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236770447.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236770717.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236770853.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236770988.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236771124.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236771282.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236771440.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236771577.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236771712.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236771849.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236771984.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236772118.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236772253.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236772388.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236772523.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236772672.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236772805.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236772943.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236773093.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236773238.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236773382.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236773522.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/no.0/1531236773670.png" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="cnn_low_level.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cnn_low_level.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-135">
+              <caret line="154" column="37" lean-forward="true" selection-start-line="154" selection-start-column="37" selection-end-line="154" selection-end-column="37" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cnn_high_level.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cnn_high_level.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="840">
+              <caret line="61" column="9" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>softma</find>
+      <find>image</find>
+      <find>conv2d/kernel/read</find>
+      <find>conv2d/kernel</find>
+      <find>input_tensor</find>
+      <find>float</find>
+      <find>global_variables</find>
+      <find>train</find>
+      <find>&quot;train&quot;</find>
+      <find>&quot;dataset/train&quot;</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/model.py" />
+        <option value="$PROJECT_DIR$/cnn_high_level.py" />
+        <option value="$PROJECT_DIR$/cnn_high_level.py" />
+        <option value="$PROJECT_DIR$/cnn_low_level.py" />
+        <option value="$PROJECT_DIR$/cnn_low_level.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="tensorflow-demo-py" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tensorflow-demo-py" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="full.screen.before.presentation.mode" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="tensorflow-cnn" sdk-home="/usr/local/bin/python3.6">
+        <option name="mySdkHome" value="/usr/local/bin/python3.6" />
+        <option name="myModuleName" value="tensorflow-cnn" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.cnn_low_level">
+    <configuration name="cnn_high_level" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="tensorflow-cnn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cnn_high_level.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="cnn_low_level (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="tensorflow-cnn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cnn_low_level.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="cnn_low_level" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="tensorflow-cnn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cnn_low_level.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="model" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="tensorflow-cnn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/model.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.model" />
+      <item itemvalue="Python.cnn_low_level" />
+      <item itemvalue="Python.cnn_low_level (1)" />
+      <item itemvalue="Python.cnn_high_level" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.cnn_low_level" />
+        <item itemvalue="Python.cnn_high_level" />
+        <item itemvalue="Python.cnn_low_level (1)" />
+        <item itemvalue="Python.model" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ffe13251-41fa-4245-bca8-b496db58ea08" name="Default" comment="" />
+      <created>1530379394608</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1530379394608</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11205074" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32969698" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32848486" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22424242" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.32969698" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32969698" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.2860606" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.112164296" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32969698" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22424242" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2911111" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32969698" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32848486" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.32969698" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/model.py</url>
+          <line>153</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/model.py</url>
+          <line>326</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/model.py</url>
+          <line>321</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="102" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="path_current() + &quot;tmp/cnn.ckpt&quot;" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/cnn_low_level.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2670">
+          <caret line="178" selection-start-line="178" selection-end-line="178" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cnn_high_level.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="61" column="9" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cnn_low_level.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1905">
+          <caret line="127" lean-forward="true" selection-start-line="127" selection-end-line="127" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cnn_high_level.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="61" column="9" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cnn_low_level.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1455">
+          <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cnn_low_level.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2055">
+          <caret line="142" lean-forward="true" selection-start-line="142" selection-end-line="142" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model.py" />
+    <entry file="file://$PROJECT_DIR$/model.py" />
+    <entry file="file:///usr/local/lib/python3.6/site-packages/tensorflow/python/layers/convolutional.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="516" column="4" selection-start-line="516" selection-start-column="4" selection-end-line="516" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.6/site-packages/numpy/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1687" />
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.6/site-packages/tensorflow/python/client/session.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="1334" selection-start-line="1334" selection-end-line="1334" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/duck front/1530471922233.png" />
+    <entry file="file:///usr/local/lib/python3.6/site-packages/cv2/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.6/site-packages/tensorflow/python/estimator/estimator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="833" selection-start-line="833" selection-end-line="833" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/python/3.6.5_1/Frameworks/Python.framework/Versions/3.6/lib/python3.6/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="308" selection-start-line="308" selection-end-line="308" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/convnet_model/graph.pbtxt" />
+    <entry file="file:///usr/local/lib/python3.6/site-packages/tensorflow/contrib/lite/python/lite.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="183" column="25" selection-start-line="183" selection-start-column="25" selection-end-line="183" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model.py" />
+    <entry file="file://$PROJECT_DIR$/cnn_high_level.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="61" column="9" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cnn_low_level.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135">
+          <caret line="154" column="37" lean-forward="true" selection-start-line="154" selection-start-column="37" selection-end-line="154" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

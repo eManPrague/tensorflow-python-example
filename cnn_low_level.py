@@ -84,29 +84,28 @@ def freeze(checkpoint_path):
 
     tflite_model = tf.contrib.lite.toco_convert(frozen_graph_def, [input_tensor], [out_tensor])
     open("model.tflite", "wb").write(tflite_model)
-
+    print("Frozen model saved")
 
 
 def define_and_train():
 
-    image_size_x = 32
-    image_size_y = 32
+    image_size = 32
     classes = 2
     input_layer_name = "input_tensor"
     output_layer_name = "softmax_tensor"
 
     train_dir = "tmp"
-    learning_rate = 0.001
+    learning_rate = 0.01
     batch_size = 32
-    train_steps = 2000
+    train_steps = 3000
     logging_step = 200
     checkpoint_step = 500
 
     # Define graph
     ############################################################
 
-    input_layer = tf.placeholder(tf.float32, shape=[None, image_size_x * image_size_y], name=input_layer_name)
-    input_image = tf.reshape(input_layer, shape=[-1, 32, 32, 1])
+    input_layer = tf.placeholder(tf.float32, shape=[None, image_size * image_size], name=input_layer_name)
+    input_image = tf.reshape(input_layer, shape=[-1, image_size, image_size, 1])
 
     # 1 Convolution layer
     conv1_w = weight_variable([5, 5, 1, 32])
@@ -120,6 +119,7 @@ def define_and_train():
     conv2 = tf.nn.relu(conv2d(pool1, conv2_w) + conv2_b)
     pool2 = max_pool_2x2(conv2)
 
+    # Flatten
     pool2_flat = tf.reshape(pool2, [-1, 8 * 8 * 64])
 
     # 3 Fully connected layer
@@ -169,9 +169,7 @@ def define_and_train():
 
     with tf.Session() as session:
         session.run(init)
-
         summary_writer = tf.summary.FileWriter(train_dir, graph=tf.get_default_graph())
-        tf.summary.image("image", input_image)
 
         for step in range(train_steps+1):
             # Get random batch
@@ -208,22 +206,9 @@ def define_and_train():
 def main():
     define_and_train()
 
-    checkpoint_path = "tmp/model.ckpt-2000"
+    checkpoint_path = "tmp/model.ckpt-3000"
     freeze(checkpoint_path)
 
 
 if __name__ == "__main__":
     main()
-
-
-
-
-
-
-
-
-
-
-
-
-
