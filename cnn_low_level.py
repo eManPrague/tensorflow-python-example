@@ -72,7 +72,7 @@ def freeze(checkpoint_path):
         saver = tf.train.import_meta_graph(checkpoint_path + '.meta')
         saver.restore(sess, checkpoint_path)
 
-        # Get the input and output tensors needed for toco.
+        # Get the input and output tensors needed for toco
         input_tensor = sess.graph.get_tensor_by_name("input_tensor:0")
         input_tensor.set_shape([1, 1024])
         out_tensor = sess.graph.get_tensor_by_name("softmax_tensor:0")

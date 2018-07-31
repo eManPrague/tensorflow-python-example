@@ -104,7 +104,7 @@ def define_and_train():
     # Define graph
     ############################################################
 
-    input_layer = tf.placeholder(tf.float32, shape=[None, 1024], name=input_layer_name)
+    input_layer = tf.placeholder(tf.float32, shape=[None, image_size * image_size], name=input_layer_name)
     input_image = tf.reshape(input_layer, shape=[-1, image_size, image_size, 1])
 
     # 1 Convolution layer
