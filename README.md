@@ -9,6 +9,6 @@ The Convolutional Neural Network recognizes a dug toy from our custom dataset. Y
 
 
 ## Note
-- This repo is part of our blog post [eMan Tensorflow](https://www.eman.cz/).
-- If you're interested in implementing frozen model to an Android app via Tensorflow Lite, check our [Simple Android Tensorflow Lite example ](https://gitlab.eman.cz/branislav.stupak/tensorflow-demo-an).
-- If you find this repo useful, please consider ★ starring it.
+- This repo is part of our blog post [eMan Tensorflow](https://www.eman.cz/)
+- If you're interested in implementing frozen model to an Android app via Tensorflow Lite, check our [Simple Android Tensorflow Lite example ](https://gitlab.eman.cz/branislav.stupak/tensorflow-demo-an)
+- If you find this repo useful, please consider ★ starring it
