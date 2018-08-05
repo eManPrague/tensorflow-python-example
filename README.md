@@ -3,6 +3,10 @@ Convolutional Neural Network are current state of the art for image classificati
 
 The Convolutional Neural Network recognizes a dug toy from our custom dataset. Yes, you can change dataset and train your own CNN. 🤗
 
+## You'll find here
+- How to define Tensorflow graph
+- How to train the network with custom dataset
+- How to freeze the model to `.tflite`
 
 ## Network Architecture
 ![ ](architecture.png)
