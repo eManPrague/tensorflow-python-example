@@ -1,5 +1,5 @@
 # Simple example of Convolutional Neural Network, built by Tensorflow, with custom dataset
-Convolutional Neural Network are current state of the art for image classification. Let's look how we can build one. 👍🏻You can find here examples of `high level` and `low level` Tensorflow implementations.
+Convolutional Neural Network are current state of the art for image classification. Let's look how we can build one. 👍 You can find here examples of `high level` and `low level` Tensorflow implementations.
 
 ## Network Architecture
 ![ ](architecture.png)
